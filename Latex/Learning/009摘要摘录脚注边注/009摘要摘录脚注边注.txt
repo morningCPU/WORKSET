@@ -1,0 +1,21 @@
+摘要
++   \begin{abstract}
+        \noindent{\textbf{关键词：}...}
+    \end{abstract}
+
+摘录
++   \begin{quote} //摘录短句
+    \end{quote}
++   \begin{quotation} //摘录段落
+    \end{quotation} //有首行缩进
++   \begin{verse} //排版诗歌
+    \end{verse} //首行不缩进，后面都缩进
++   \begin{verbatim} //排版代码
+    \end{verbatim}
+
+脚注
++   \footnote{内容}
+
+边注
++   \marginpar{内容}
+

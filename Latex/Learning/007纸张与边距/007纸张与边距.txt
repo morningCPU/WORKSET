@@ -1,0 +1,8 @@
+纸张与边距
++   引入宏包 geometry 默认竖排
+    \usepackage[landscape]{geometry} 横排
++   设置纸张大小与页边距
+    \geometry{a4paper,left = 1cm,right = 1cm,top = 1cm,bottom = 1cm}
+    \geometry{a4paper,hmargin = 1cm,vmargin = 1cm}
+    \geometry{a4paper,margin = 1cm}
+    

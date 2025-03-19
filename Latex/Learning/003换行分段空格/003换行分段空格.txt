@@ -1,0 +1,4 @@
++   换行    \\ 或 \newline
++   分段    中间空一行，会有首行缩进 或 \par
++   空格    水平空格    \hspace{size}    size : 1em为一个汉字宽度
+            垂直空格    \vspace{size}

@@ -1,0 +1,9 @@
+用 VScode 写 MarkDown
++   下载必要的插件
+    1.MarkDown All in One
+    2.MarkDown Preview Enhanced
+    3.MarkDown PDF
+    4.Paste Image
++   后缀是 .md (markdown.md)
++   选中注释 ： shift + alt + A
+    整行注释 ： ctrl + /

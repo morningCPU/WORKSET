@@ -1,0 +1,51 @@
++   居中
+    \begin{center}
+        %内容
+    \end{center}
+
++   左对齐
+    \begin{flushleft}
+        %内容
+    \end{flushleft}
+
++   右对齐
+    \begin{flushright}
+        %内容
+    \end{flushright}
+
++   取消缩进    \noindent
+    只影响一段
+
++   取消全部的段落缩进
+    放在导言区
+    \parindent = 0pt %不要分号
+    或者    \setlength{\parindent}{0pt}
+
++   设置行距    
+    放在导言区改变全部          \linespread{2}
+    放在正文区改变从位置到最好的行距     \linespread{2}\selectfont
+    如果要改变一部分，就用大括号包起来
+    示例：  {\linespread{2}\selectfont
+            fadsfdsafdsafdsafdsafa
+            dsafsdafdsfasdfasf}
+
++   应用设置行距宏包
+    导言区：
+    \usepackage{setspace}
+    \singlespacing  单倍行距
+    \onehalfspacing 1.5倍行距
+    \doublespacing  双倍行距
+    \setstretch{2}  设置任意行距
+    正文区：
+    \begin{spacing}{2}
+        %内容
+    \end{spacing}{2}
+
++   需要注意：
+    linespread 设置的是相对于基础行距的倍数
+    spacing 设置的是相对于基础行距的倍数
+    \singlespacing  等是字号的倍数
+    
+
+
+

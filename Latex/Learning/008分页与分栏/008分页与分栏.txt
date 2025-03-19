@@ -1,0 +1,9 @@
+分栏
++   \documentclass[12pt,twocolumn]{article}
++   恢复一栏    \onecolumn
+
+分页
++   \newpage
+    会跳到下一栏
++   \clearpage
+    跳到下一页

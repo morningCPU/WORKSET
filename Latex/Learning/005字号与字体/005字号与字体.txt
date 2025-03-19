@@ -1,0 +1,46 @@
+字号
++   article 默认是11pt
++   \documentclass[11pt]{article}
+    注意这里字号大写只能选 10,11,12pt
++   改变部分字体大小
+    命令                       标准大小
+                        10pt    11pt    12pt 
+    \tiny               5pt     6pt     6pt 
+    \scriptsize         7pt     8pt     8pt 
+    \footnotesize       8pt     9pt     10pt 
+    \small              9pt     10pt    11pt 
+    \normalsize         10pt    11pt    12pt 
+    \large              12pt    12pt    14pt 
+    \Large              14pt    14pt    17pt 
+    \LARGE              17pt    17pt    20pt 
+    \huge               20pt    20pt    25pt
+    \Huge               25pt    25pt    25pt
++   应用方法：
+    1. 放在环境中
+    2. 用大括号括起来，{\Huge  }
+    3. 创建环境
+        \begin{Huge}
+        \end{Huge}
++   设置任意字体大小
+    \fontsize{字体大小}{行距}\selectfont
++   引入 ctex 库可以用 \zihao{2}
+
+字体
++   黑体    \heiti
+    宋体    \songti (一般默认)
+    雅黑    \yahei
+    仿宋    \fangsong
+    楷书    \kaishu
+    隶书    \lishu
+    幼圆    \youyuan
++   设置局部可以用大括号和环境的方法
++   加粗    \bfseries
+    斜体    \itshape
+    衬线字体/罗马字体   \rmfamily(大片) \textrm{}(小片)
+    不衬线字体  \sffamily \textsf{}
+    等宽字体    \ttfamily \texttt{}
++   字体宏包 fontspec
+    \setmainfont{} 主字体
+    \setsansfont{} 非衬线字体
+    \setmonofont{} 等宽字体
+    \fontspec{}

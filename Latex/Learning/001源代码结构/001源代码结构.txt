@@ -1,0 +1,37 @@
+源代码 main.tex
++   用 % 注释
+
++   输入 \ 用 \textbackslash (用 \\ 没有用)
+
++   必需的结构
+    %---------导言区----------------------
+    \documentclass{article}
+    \usepackage{ctex}
+    %---------导言区----------------------
+    %---------正文区----------------------
+    \begin{document}
+        %内容
+    \end{document}
+    %---------正文区----------------------
+
+
++   具体介绍
+    \documentclass{article} //文档类：定义了文章排版的基本参数，相当于基础模版
+    -   articke 科技论文，报告，说明文档
+    -   report  综述，长篇论文
+    -   book    书籍
+    -   slides  幻灯格式
+
+    \begin{document} //环境
+
+    正文区
+
+    \end{document}
+
++   使用中文字符
+    方法1： 导入 ctex 宏包
+    \usepackage{ctex}
+    如果报错，将编译器选为 XeLateX
+    方法2： 更改文档类型
+    \documentclass{<calss-name>}
+    class-name 选为 ctexart,ctexrep，ctexbook 等支持中文的类型

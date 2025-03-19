@@ -1,0 +1,21 @@
+下划线
++   引用宏包 ulem
+    \usepackage[normalem]{ulem} %注意要写 [normalem] 不然可能会出问题
++   应用 \uline{ }
++   单行下划线  uline
+    双行下划线  uuline
+    波浪线      uwave
+    点线        dotuline
+    删除线      sout
+    斜线删除线   xout
+
+颜色
++   引用宏包 xcolor
++   \color{颜色名}
+    \color[rgb]{r,g,b}
+    \textcolor{颜色}{内容}
+    \textcolot[rgb]{r,g,b}{内容}
+    \colorbox{颜色}{内容} 设置背景色
+    \clolrbox[rgb]{颜色}{内容} 
+    \fcolorbox{边框颜色}{背景色}{内容}
+    \fcolorbox[rgb]{边框颜色}{背景色}{内容}
